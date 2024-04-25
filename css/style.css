@@ -1,22 +1,4 @@
 @import url(variables.css);
-.medio{
-    background-color: var(--color-azul) ;
-    padding: var(--space-layout-padding-lr);
-}
-
-header{
-    padding-top: 10px; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: var(--color-blanco);
-}
-.header__invento img{
-    width: 40px;
-}
-.header__opciones img{
-    width: 40px;
-}
 *{
     padding: 0;
     margin: 0;
