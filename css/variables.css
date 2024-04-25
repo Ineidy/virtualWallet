@@ -1,0 +1,37 @@
+:root{
+    --color-1: #555368;
+    --color-2: #9eacc9;
+    --color-3: #b1d5fa;
+    --color-4: #ffffff;
+    --color-5: #ffffff;
+    --color-6: #887d8a;
+    --color-7: #000000;
+    --space-layout-padding-lr: 0px 15px;
+
+}
+@font-face {
+    font-family: "BOLD";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "REGULAR";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "JERSEY";
+    src: url("../storage/font/SF-Pro-Text-Font-Family/Jersey20-Regular.ttf");
+}
+
+@font-face {
+    font-family: "MEDIUM";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "MEDIUMMONSERRAT";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/Montserrat-Medium.ttf);
+}
+
+

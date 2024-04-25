@@ -1,0 +1,234 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.medio{
+    background-color: var(--color-1) ;
+    padding: var(--space-layout-padding-lr);
+    
+}
+body{
+    background-image: url(../storage/img/Groupdecoracion.svg);
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header__invento{
+
+    color: var(--color-7);
+    padding: var(--space-layout-padding-lr);
+    display: flex;
+    column-gap: 10px;
+
+}
+
+
+.header__invento img{
+    width: 40px;
+}
+.header__invento p{
+    font-family: "JERSEY";
+    font-size: 25px;
+    margin-top: 10px;
+}
+.icon1{
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+}
+.header__opciones img{
+    width: 40px;
+}
+
+.arrown{
+    padding: var(--space-layout-padding-lr);
+    background-color: var(--color-4);
+    position: absolute;
+    height: 98%;
+    width: 100%;
+    margin-top: 350px;
+    justify-content: space-between;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+
+}
+.up{
+    margin-top: 40px;
+    padding: var(--space-layout-padding-lr);
+}
+.balances{
+    color: var(--color-5);
+    font-family: "BOLD";
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.linea{
+    width: 160px;
+    margin-bottom: 40px;
+}
+.encimasavings{
+    position: absolute;
+    top: 264px;
+    left: 41px;
+    width: 120px;
+}
+.encimaassets{
+    position: absolute;
+    top: 265px;
+    left:233px;
+    width: 50px;
+}
+h1{
+    color: var(--color-5);
+    margin-bottom: 10px;
+    font-family: "JERSEY";
+    font-size: 45px;
+}
+.saludar p{
+    color: var(--color-5);
+    font-family: "JERSEY";
+
+    font-size: 45px;
+}
+.box{
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+    font-family: "JERSEY"
+
+}
+.scroll{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-top:60px;
+    margin-left: 30px;
+    overflow-x: scroll;
+    text-align: center;
+    column-gap: 40px;
+    font-size: 18px;
+    font-family: "MEDIUM";
+    scrollbar-width: none;
+}
+.options{
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+    border: 1px solid;
+    width: 108px;
+    height: 140px;
+    border-radius: 20px;
+}
+.options img{
+    width: 70px;
+    margin-top: 20px;
+}
+.transactions{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: "JERSEY";
+    margin-left: 10px;
+    position: relative;
+
+}
+.contenido_transaccion{
+    margin-top: 20px;
+    row-gap: 40px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contenido_transaccion div{
+
+    border-radius: 10px;
+}
+.transaction1{
+    display: grid;
+    grid-row: 1;
+    height: 50px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+.transaction1 h3{
+    font-family: "MEDIUM";
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+}
+.transaction1 span{
+    font-family: "REGULAR";
+    display: grid;
+    grid-column: 4;
+}
+.transaction1 img{
+
+    width: 50px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.transaction1 small{
+    grid-column: 3;
+    grid-row: 1;
+    font-size: 11px;
+    position: absolute;
+    right: 0;
+    padding-top: 35px;
+    padding-right: 15px;
+    font-family: "MEDIUM";
+    
+}
+
+.transaction1 h6{
+    font-family: "REGULAR";
+    grid-column: 2;
+    grid-row: 1;
+    height: 50px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: var(--color-1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer__ul{
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.footer__ul li{
+    list-style: none;
+    justify-content: center;
+
+}
+
+.footer__ul li a img{
+    height: 30px;
+    width: 30px;
+}
