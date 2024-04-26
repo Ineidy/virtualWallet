@@ -7,7 +7,7 @@
 .medio{
     background-color: var(--color-azul) ;
     padding: var(--space-layout-padding-lr);
-    
+
 }
 body{
     background-color: var(--color-azul);
@@ -15,21 +15,35 @@ body{
     flex-direction: column;
 }
 
-header{
-    padding-top: 10px; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.header__invento{
     color: var(--color-blanco);
+    display: flex;
+    column-gap: 10px;
+    /* justify-content: space-between; */
 }
 .header__invento img{
     width: 40px;
+}
+.header__invento p{
+    margin-top: 10px;
+}
+.icon1{
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
 }
 .header__opciones img{
     width: 40px;
 }
 .arrown{
+    padding: var(--space-layout-padding-lr);
     background-color: var(--color-blanco);
+    position: fixed;
+    width: 100%;
+    height: 150%;
+    margin-top: 270px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 .up{
     margin-top: 8vw;
@@ -44,46 +58,45 @@ header{
     padding-bottom: 7vw;
 }
 .linea{
-    width: 40vw;
+    width: 160px;
 }
 h1{
     color: var(--color-blanco);
+    /* margin-top: vw; */
+    font-size: 35px;
+}
+.saludar p{
+    color: var(--color-blanco);
     margin-top: 2vw;
-    font-size: 9vw;
+    font-size: 35px;
 }
-.arrown{
-    background-color: var(--color-gris);
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    height: 97vw;
-    overflow-y: scroll;
-    border-top-left-radius: 14vw;
-    border-top-right-radius: 14vw;
-    padding: var(--space-layout-padding-lr);
+.box{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+    font-family: "SF_BOLD"
 }
-.Activities{
-    margin-top: 9vw;
-}
-.scrool{
-    
-    display: flex;
+.scroll{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 40px;
     overflow-x: scroll;
-}
-.scrool div{
-    padding-left: 6vw;
+    text-align: center;
+    column-gap: 15px;
+    font-size: 20px;
+    font-family: "SF_SEMIBOLD";
 }
 .options{
-    background-color: var(--color-blanco);
-    margin-left: 6vw;
+    border: 1px solid;
+    width: 108px;
+    height: 140px;
+    border-radius: 20px;
 }
-.options
-
-
-
-
-
-
+.options img{
+    width: 70px;
+    margin-top: 20px;
+}
 
 
 
@@ -113,13 +126,13 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    
+
 
 }
 .footer__ul li{
     list-style: none;
     justify-content: center;
-    
+
 }
 
 .footer__ul li a img{

@@ -6,3 +6,34 @@
     --space-layout-padding-lr: 0px 15px;
 
 }
+@font-face {
+    font-family: "SF_BOLD";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Bold.otf);
+}
+
+@font-face {
+    font-family: "SF_REGULAR";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Regular.otf);
+}
+
+@font-face {
+    font-family: "SF_MEDIUM";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Medium.otf);
+}
+
+@font-face {
+    font-family: "SF_LIGHT";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Light.otf);
+}
+
+@font-face {
+    font-family: "SF_SEMIBOLD";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Semibold.otf);
+}
+
+@font-face {
+    font-family: "SF_HEAVY";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Heavy.otf);
+}
+
+
