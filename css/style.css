@@ -7,6 +7,12 @@
 .medio{
     background-color: var(--color-azul) ;
     padding: var(--space-layout-padding-lr);
+    
+}
+body{
+    background-color: var(--color-azul);
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -22,6 +28,79 @@ header{
 .header__opciones img{
     width: 40px;
 }
+.arrown{
+    background-color: var(--color-blanco);
+}
+.up{
+    margin-top: 8vw;
+    padding: var(--space-layout-padding-lr);
+}
+.balances{
+    color: var(--color-blanco);
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 7vw;
+}
+.linea{
+    width: 40vw;
+}
+h1{
+    color: var(--color-blanco);
+    margin-top: 2vw;
+    font-size: 9vw;
+}
+.arrown{
+    background-color: var(--color-gris);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 97vw;
+    overflow-y: scroll;
+    border-top-left-radius: 14vw;
+    border-top-right-radius: 14vw;
+    padding: var(--space-layout-padding-lr);
+}
+.Activities{
+    margin-top: 9vw;
+}
+.scrool{
+    
+    display: flex;
+    overflow-x: scroll;
+}
+.scrool div{
+    padding-left: 6vw;
+}
+.options{
+    background-color: var(--color-blanco);
+    margin-left: 6vw;
+}
+.options
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     background-color: var(--color-azul);
     position: fixed;
