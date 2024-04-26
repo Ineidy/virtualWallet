@@ -38,12 +38,13 @@ body{
 .arrown{
     padding: var(--space-layout-padding-lr);
     background-color: var(--color-blanco);
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 150%;
+    height: 120%;
     margin-top: 270px;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
+    overflow-y: scroll;
 }
 .up{
     margin-top: 8vw;
@@ -96,6 +97,66 @@ h1{
 .options img{
     width: 70px;
     margin-top: 20px;
+}
+.transactions{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "SF_BOLD";
+    margin-left: 10px;
+    position: relative;
+
+}
+.contenido_transaccion{
+    margin-top: 20px;
+    row-gap: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contenido_transaccion div{
+    background-color: beige;
+    border-radius: 10px;
+}
+.transaction1{
+    display: grid;
+    grid-row: 1;
+    height: 50px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+.transaction1 h3{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+}
+.transaction1 span{
+    display: grid;
+    grid-column: 4;
+}
+.transaction1 img{
+    width: 50px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.transaction1 small{
+    grid-column: 3;
+    grid-row: 1;
+    font-size: 11px;
+    position: absolute;
+    right: 0;
+    padding-top: 35px;
+    padding-right: 15px;
+    font-family: "SF_MEDIUM";
+    
+}
+
+.transaction1 h6{
+
+    grid-column: 2;
+    grid-row: 1;
+    height: 50px;
+    margin-top: 30px;
 }
 
 
