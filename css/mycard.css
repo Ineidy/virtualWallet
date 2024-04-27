@@ -1,0 +1,71 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-blanco);
+    
+}
+.header__invento{
+    padding: var(--space-layout-padding-lr);
+    display: flex;
+    column-gap: 10px;
+}
+.header__invento img{
+    width: 40px;
+}
+.icon1{
+    position: absolute;
+    padding-right: 15px;
+    right: 0;
+}
+.header__invento p{
+    margin-top: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: var(--color-azul);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer ul{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+footer ul li{
+    justify-content: center;
+    list-style: none;
+
+}
+footer li a img{
+    width: 30px;
+    height: 30px;
+}
