@@ -24,6 +24,65 @@ body{
 .header__invento p{
     margin-top: 13px;
 }
+.investing{
+    font-size: 20px;
+}
+.investing__tips{
+    margin-top: 30px;
+    padding: var(--space-layout-padding-lr);
+}
+.EFT{
+    /* background-color: aquamarine; */
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    padding: var(--space-layout-padding-lr);
+    
+}
+.etfimg{
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    width: 30px;
+}
+.imgcer{
+    background-color: rgba(105, 240, 195, 0.767);
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.cerdii{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 14px;
+    margin-left: 10px;
+    width: 120px;
+
+}
+.carrt{
+    padding: var(--space-layout-padding-lr);
+}
+.txtmycard{
+    margin-top:50px;
+    font-size: 20px;
+}
+.scroll{
+    overflow: scroll;
+    column-gap:25px;
+    display: flex;
+    padding-bottom: 70px;
+    
+}
+
+.tarjeta img{
+    padding-top: 20px;
+    width: 200px;
+}
 
 
 
