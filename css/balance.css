@@ -4,6 +4,67 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--color-blanco);
+}
+.header__invento{
+    padding: var(--space-layout-padding-lr);
+    position: static;
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+    display: flex;
+    column-gap: 10px;
+    /* justify-content: space-between; */ 
+}
+.header__invento img{
+    width: 40px;
+}
+.header__invento p{
+    margin-top: 10px;
+}
+.icon1{
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+}
+.header__opciones img{
+    width: 40px;
+}
+.partbalance{
+    background-color: var(--color-azul);
+    overflow: hidden;
+    height: 200px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+}
+.tot{
+    background-color: var(--color-verde);
+    color: var(--color-blanco);
+    left: 25%;
+    top: 18%;
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    height: 200px;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     background-color: var(--color-azul);
