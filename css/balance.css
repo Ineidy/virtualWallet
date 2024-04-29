@@ -6,6 +6,8 @@
 }
 body{
     background-color: var(--color-blanco);
+    height: 120%;
+    
 }
 .header__invento{
     padding: var(--space-layout-padding-lr);
@@ -91,7 +93,15 @@ body{
     background-color: var(--color-blanco);
 }
 .estadisticas{
-    width: 100%;
+    margin-top: 7vh;
+    width: 59vh;
+}
+.days{
+    margin-top: 7vh;
+    width: 50vh;
+}
+.compl{
+    margin-bottom: 70px;
 }
 
 
