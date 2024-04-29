@@ -34,26 +34,35 @@ body{
 }
 .partbalance{
     background-color: var(--color-azul);
-    overflow: hidden;
+
     height: 200px;
+    align-items: center;
+    width: 100%;
     border-bottom-left-radius: 160px;
     border-bottom-right-radius: 160px;
 }
 .tot{
+    width: 100%;
+    height: 150%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.circle{
+    margin-top: 65px;
     background-color: var(--color-verde);
     color: var(--color-blanco);
-    left: 25%;
-    top: 18%;
-    position: absolute;
-    width: 200px;
     text-align: center;
+    width: 200px;
     height: 200px;
     border-radius: 100%;
 }
 .bot{
-    background-color: cornflowerbluea;
-    margin-top: 110px;
-    margin-left: 5vh;
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-around;
 
 }
 .bot1{
@@ -63,7 +72,7 @@ body{
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 30px;
-    margin-right: 10px;
+
     border-color: var(--color-azul);
     background-color: var(--color-azul);
     color: var(--color-blanco);
@@ -93,15 +102,54 @@ body{
     background-color: var(--color-blanco);
 }
 .estadisticas{
-    margin-top: 7vh;
-    width: 59vh;
+    margin-top: 7vh;   
+    width: 350px;
+}
+.bal{
+
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+
 }
 .days{
     margin-top: 7vh;
     width: 50vh;
+    margin-bottom: 4vw;
+}
+.di{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .compl{
     margin-bottom: 70px;
+}
+.balanc{
+    padding: var(--space-layout-padding-lr);
+}
+.xd{
+    margin-top: 15px;
+    position: absolute;
+    right: 15px;
+    width: 30px;
+
+}
+.compl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(202, 241, 166);
+    padding-bottom: 30px;
+}
+.cel img{
+    width: 130px;
+    margin-top: 60px;
+}
+.Spending{
+    margin-top: 60px;
 }
 
 
