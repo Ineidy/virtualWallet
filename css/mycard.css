@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--color-blanco);
+    background-color: var(--color-4);
     
 }
 .header__invento{
@@ -34,6 +34,7 @@ body{
 .EFT{
     /* background-color: aquamarine; */
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    width: 360px;
     margin-top: 30px;
     border-radius: 14px;
     display: flex;
@@ -45,8 +46,8 @@ body{
 }
 .etfimg{
     position: absolute;
-    right: 0;
-    margin-right: 15px;
+    margin-top: 7px;
+    margin-left: 320px;
     width: 30px;
 }
 .imgcer{
@@ -104,7 +105,7 @@ body{
 
 
 footer{
-    background-color: var(--color-azul);
+    background-color: var(--color-1);
     position: fixed;
     bottom: 0;
     width: 100%;

@@ -1,13 +1,3 @@
-
-￼
-Account
-
-￼
-Account
-
-￼
-Account
-
 @import url(variables.css);
 *{
     padding: 0;
@@ -15,19 +5,20 @@ Account
     box-sizing: border-box;
 }
 .medio{
-    background-color: var(--color-azul) ;
+    background-color: var(--color-1) ;
     padding: var(--space-layout-padding-lr);
 
 }
 body{
-    background-color: var(--color-azul);
+    background-color: var(--color-1);
     display: flex;
     flex-direction: column;
 }
 
 .header__invento{
-    position: static;
-    color: var(--color-blanco);
+    /* position: static; */
+    color: var(--color-4);
+    padding: var(--space-layout-padding-lr);
     display: flex;
     column-gap: 10px;
     /* justify-content: space-between; */ 
@@ -48,38 +39,38 @@ body{
 }
 .arrown{
     padding: var(--space-layout-padding-lr);
-    background-color: var(--color-blanco);
+    background-color: var(--color-4);
     position: absolute;
     width: 100%;
     height: 85%;
-    margin-top: 270px;
+    margin-top: 300px;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
 
 }
 .up{
-    margin-top: 8vw;
+    margin-top: 40px;
     padding: var(--space-layout-padding-lr);
 }
 .balances{
-    color: var(--color-blanco);
-    padding-top: 5vw;
+    color: var(--color-5);
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 7vw;
+
 }
 .linea{
     width: 160px;
 }
 h1{
-    color: var(--color-blanco);
-    /* margin-top: vw; */
+    color: var(--color-5);
+    margin-bottom: 10px;
     font-size: 35px;
 }
 .saludar p{
-    color: var(--color-blanco);
-    margin-top: 2vw;
+    color: var(--color-5);
+    /* margin-top: 2vw; */
     font-size: 35px;
 }
 .box{
@@ -187,7 +178,7 @@ h1{
 
 
 footer{
-    background-color: var(--color-azul);
+    background-color: var(--color-1);
     position: fixed;
     bottom: 0;
     width: 100%;

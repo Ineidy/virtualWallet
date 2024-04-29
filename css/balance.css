@@ -5,15 +5,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--color-blanco);
+    background-color: var(--color-4);
     height: 120%;
     
 }
 .header__invento{
     padding: var(--space-layout-padding-lr);
     position: static;
-    background-color: var(--color-azul);
-    color: var(--color-blanco);
+    background-color: var(--color-1);
+    color: var(--color-4);
     display: flex;
     column-gap: 10px;
     /* justify-content: space-between; */ 
@@ -33,7 +33,7 @@ body{
     width: 40px;
 }
 .partbalance{
-    background-color: var(--color-azul);
+    background-color: var(--color-1);
 
     height: 200px;
     align-items: center;
@@ -52,8 +52,8 @@ body{
 }
 .circle{
     margin-top: 65px;
-    background-color: var(--color-verde);
-    color: var(--color-blanco);
+    background-color: var(--color-2);
+    color: var(--color-4);
     text-align: center;
     width: 200px;
     height: 200px;
@@ -73,9 +73,9 @@ body{
     padding-right: 25px;
     border-radius: 30px;
 
-    border-color: var(--color-azul);
-    background-color: var(--color-azul);
-    color: var(--color-blanco);
+    border-color: var(--color-1);
+    background-color: var(--color-1);
+    color: var(--color-4);
 }
 .bot2{
     font-size: 17px;
@@ -85,9 +85,9 @@ body{
     padding-right: 25px;
     border-radius: 30px;
     margin-right: 10px;
-    border-color: var(--color-verde);
-    color: var(--color-verde);
-    background-color: var(--color-blanco);
+    border-color: var(--color-2);
+    color: var(--color-2);
+    background-color: var(--color-4);
 }
 .bot3{
     font-size: 17px;
@@ -97,9 +97,9 @@ body{
     padding-right: 25px;
     border-radius: 30px;
     margin-right: 10px;
-    border-color: var(--color-gris);
-    color: var(--color-gris);
-    background-color: var(--color-blanco);
+    border-color: var(--color-3);
+    color: var(--color-3);
+    background-color: var(--color-4);
 }
 .estadisticas{
     margin-top: 7vh;   
@@ -172,7 +172,7 @@ body{
 
 
 footer{
-    background-color: var(--color-azul);
+    background-color: var(--color-1);
     position: fixed;
     bottom: 0;
     left: 0;
