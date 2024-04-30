@@ -51,11 +51,11 @@ body{
     width: 30px;
 }
 .imgcer{
-    background-color: rgba(105, 240, 195, 0.767);
+    background-color: var(--color-6);
     border-top-left-radius: 14px;
     border-bottom-left-radius: 14px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
 }
 .cerdii{
     padding-top: 25px;

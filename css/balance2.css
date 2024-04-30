@@ -120,7 +120,7 @@ body{
 
 }
 .days{
-    margin-top: 7vh;
+
     width: 50vh;
     margin-bottom: 4vw;
 }
@@ -132,7 +132,6 @@ body{
 }
 .compl{
     margin-bottom: 60px;
-    
 }
 .balanc{
     padding: var(--space-layout-padding-lr);
