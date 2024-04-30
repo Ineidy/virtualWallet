@@ -7,12 +7,14 @@
 .medio{
     background-color: var(--color-1) ;
     padding: var(--space-layout-padding-lr);
-
+    
 }
 body{
+    background-image: url(../storage/img/Groupdecoracion.svg);
     background-color: var(--color-1);
     display: flex;
     flex-direction: column;
+
 }
 
 .header__invento{
@@ -23,6 +25,7 @@ body{
     column-gap: 10px;
 
 }
+
 .header__invento img{
     width: 40px;
 }
@@ -83,13 +86,15 @@ h1{
 }
 .scroll{
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    margin-top: 40px;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-top:60px;
+    margin-left: 30px;
     overflow-x: scroll;
     text-align: center;
-    column-gap: 15px;
-    font-size: 20px;
+    column-gap: 40px;
+    font-size: 18px;
     font-family: "SF_SEMIBOLD";
+    scrollbar-width: none;
 }
 .options{
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
@@ -119,7 +124,7 @@ h1{
 
 }
 .contenido_transaccion div{
-    background-color: var(--color-6);
+
     border-radius: 10px;
 }
 .transaction1{

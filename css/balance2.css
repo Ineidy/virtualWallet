@@ -155,7 +155,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: rgb(202, 241, 166);
+    background-color: var(--color-3);
     padding-bottom: 30px;
 }
 .cel img{
