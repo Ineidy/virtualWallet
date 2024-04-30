@@ -1,37 +1,47 @@
 @import url(variables.css);
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: var(--color-4);
-    
+
 }
-.header__invento{
+
+.header__invento {
+    color: var(--color-7);
     padding: var(--space-layout-padding-lr);
     display: flex;
     column-gap: 10px;
 }
-.header__invento img{
+
+.header__invento img {
     width: 40px;
 }
-.icon1{
+
+.icon1 {
     position: absolute;
     padding-right: 15px;
     right: 0;
 }
-.header__invento p{
+
+.header__invento p {
     margin-top: 13px;
 }
-.investing{
+
+.investing {
     font-size: 20px;
 }
-.investing__tips{
+
+.investing__tips {
     margin-top: 30px;
     padding: var(--space-layout-padding-lr);
 }
-.EFT{
+
+.EFT {
     /* background-color: aquamarine; */
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
     width: 360px;
@@ -40,20 +50,24 @@ body{
     display: flex;
     flex-direction: row;
 }
-.info{
+
+.info {
     padding: var(--space-layout-padding-lr);
-    
+
 }
-.info h3{
+
+.info h3 {
     margin-top: 25px;
     font-size: 25px;
 }
-.info small{
+
+.info small {
     margin-top: 25px;
     margin-left: 5px;
     font-size: 15px;
 }
-.info button{
+
+.info button {
     margin-top: 10px;
     font-size: 10px;
     color: var(--color-5);
@@ -67,20 +81,22 @@ body{
 
 }
 
-.etfimg{
+.etfimg {
     position: absolute;
     margin-top: 7px;
     margin-left: 320px;
     width: 30px;
 }
-.imgcer{
+
+.imgcer {
     background-color: var(--color-6);
     border-top-left-radius: 14px;
     border-bottom-left-radius: 14px;
     border-top-right-radius: 70px;
     border-bottom-right-radius: 70px;
 }
-.cerdii{
+
+.cerdii {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 14px;
@@ -88,24 +104,63 @@ body{
     width: 120px;
 
 }
-.carrt{
+
+.carrt {
     padding: var(--space-layout-padding-lr);
 }
-.txtmycard{
-    margin-top:50px;
+
+.txtmycard {
+    margin-top: 50px;
     font-size: 20px;
 }
-.scroll{
+
+.scroll {
     overflow: scroll;
-    column-gap:25px;
+    column-gap: 25px;
     display: flex;
     padding-bottom: 70px;
-    
 }
 
-.tarjeta img{
-    padding-top: 20px;
-    width: 200px;
+.tarjeta {
+    background-color: var(--color-2);
+    background-image: url(../storage/img/Group\ 8circulos.svg);
+    width: 23784vw;
+    height: 350px;
+    border-radius: 30px;
+
+}
+
+.cantidad{
+    position: absolute;
+    color: var(--color-5);
+    margin-left: 65px;
+    margin-top: 165px;
+    font-size: 34px;
+
+}
+.num{
+    position: absolute;
+    margin-left: 137px;
+    margin-top: 35px;
+    color: var(--color-5);
+}
+.icon3{
+    position: absolute;
+    width: 60px;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+.icon3vis{
+    position: absolute;
+    width: 60px;
+    margin-top: 310px;
+    margin-left: 20px;
+}
+.icon2{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 35px;
 }
 
 
@@ -127,14 +182,17 @@ body{
 
 
 
-footer{
+
+
+footer {
     background-color: var(--color-1);
     position: fixed;
     bottom: 0;
     width: 100%;
-    
+
 }
-footer ul{
+
+footer ul {
     height: 60px;
     display: flex;
     justify-content: space-around;
@@ -143,12 +201,13 @@ footer ul{
 
 }
 
-footer ul li{
+footer ul li {
     justify-content: center;
     list-style: none;
 
 }
-footer li a img{
+
+footer li a img {
     width: 30px;
     height: 30px;
 }
