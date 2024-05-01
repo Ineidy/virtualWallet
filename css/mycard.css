@@ -29,11 +29,15 @@ body {
 }
 
 .header__invento p {
-    margin-top: 13px;
+        font-family: "JERSEY";
+        font-size: 25px;
+        margin-top: 10px;
+    
 }
 
 .investing {
     font-size: 20px;
+    font-family: "BOLD";
 }
 
 .investing__tips {
@@ -59,12 +63,14 @@ body {
 .info h3 {
     margin-top: 25px;
     font-size: 25px;
+    font-family: "MEDIUM";
 }
 
 .info small {
     margin-top: 25px;
     margin-left: 5px;
     font-size: 15px;
+    font-family: "REGULAR";
 }
 
 .info button {
@@ -78,6 +84,7 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     border-radius: 14px;
+    font-family: "MEDIUM";
 
 }
 
@@ -111,56 +118,64 @@ body {
 
 .txtmycard {
     margin-top: 50px;
+    margin-bottom: 30px;
     font-size: 20px;
+    font-family: "BOLD";
 }
 
 .scroll {
-    overflow: scroll;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    overflow-x: scroll;
     column-gap: 25px;
-    display: flex;
     padding-bottom: 70px;
 }
 
 .tarjeta {
     background-color: var(--color-2);
-    background-image: url(../storage/img/Group\ 8circulos.svg);
-    width: 23784vw;
-    height: 350px;
+    background-image: url(../storage/img/Groupdecoracion.svg);
+    width: 200px;
+    height: 300px;
     border-radius: 30px;
+    border: 2px solid;
 
 }
 
 .cantidad{
-    position: absolute;
+    font-family: "MEDIUMMONSERRAT";
+    position: relative;
     color: var(--color-5);
-    margin-left: 65px;
-    margin-top: 165px;
-    font-size: 34px;
+    margin-left: 32px;
+    margin-top: 50px;
+    font-size: 30px;
 
 }
 .num{
-    position: absolute;
-    margin-left: 137px;
-    margin-top: 35px;
+    font-family: "MEDIUMMONSERRAT";
+
+    position: relative;
+    padding-left: 110px;
+    padding-top: 20px;
     color: var(--color-5);
 }
 .icon3{
-    position: absolute;
-    width: 60px;
-    margin-top: 290px;
-    margin-left: 20px;
+    position: relative;
+    width: 70px;
+    padding-top: 70px;
+    padding-left: 20px;
 }
 .icon3vis{
-    position: absolute;
+    position: relative;
     width: 60px;
-    margin-top: 310px;
+    margin-top: 80px;
     margin-left: 20px;
 }
 .icon2{
-    position: absolute;
-    margin-top: 20px;
+    position: relative;
     margin-left: 20px;
-    width: 35px;
+    /* margin-bottom: 300px; */
+    width: 30px;
 }
 
 

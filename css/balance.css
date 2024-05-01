@@ -22,6 +22,8 @@ body{
     width: 40px;
 }
 .header__invento p{
+    font-family: "JERSEY";
+    font-size: 25px;
     margin-top: 10px;
 }
 .icon1{
@@ -35,11 +37,11 @@ body{
 .partbalance{
     background-color: var(--color-1);
     /* background-image: url(../storage/img/Group\ 8circulos.svg); */
-    height: 200px;
+    height: 150px;
     align-items: center;
     width: 100%;
-    border-bottom-left-radius: 160px;
-    border-bottom-right-radius: 160px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
 }
 .tot{
     width: 100%;
@@ -51,7 +53,8 @@ body{
     /* justify-content: space-between; */
 }
 .circle{
-    margin-top: 65px;
+    font-family: "MEDIUMMONSERRAT";
+    margin-top: 30px;
     background-color: var(--color-2);
     color: var(--color-4);
     text-align: center;
@@ -63,15 +66,16 @@ body{
     font-size: 30px;
 }
 .baj{
-    margin-top:  48px;
+    margin-top:  38px;
 }
 .bot{
     display: flex;
     margin-top: 100px;
     justify-content: space-around;
-
+    
 }
 .bot1{
+    font-family: "BOLD";
     font-size: 17px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -84,6 +88,7 @@ body{
     color: var(--color-4);
 }
 .bot2{
+    font-family: "BOLD";
     font-size: 17px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -96,6 +101,7 @@ body{
     background-color: var(--color-4);
 }
 .bot3{
+    font-family: "BOLD";
     font-size: 17px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -143,6 +149,15 @@ body{
     right: 15px;
     width: 30px;
 
+}
+.Spending h2{
+    font-family: "JERSEY";
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.Spending p{
+    font-family: "REGULAR";
+    font-size: 12.5px;
 }
 
 

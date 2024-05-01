@@ -10,33 +10,28 @@
 
 }
 @font-face {
-    font-family: "SF_BOLD";
-    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Bold.otf);
+    font-family: "BOLD";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/Poppins-Bold.ttf);
 }
 
 @font-face {
-    font-family: "SF_REGULAR";
-    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Regular.otf);
+    font-family: "REGULAR";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/Poppins-Regular.ttf);
 }
 
 @font-face {
-    font-family: "SF_MEDIUM";
-    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Medium.otf);
+    font-family: "JERSEY";
+    src: url("../storage/font/SF-Pro-Text-Font-Family/Jersey20-Regular.ttf");
 }
 
 @font-face {
-    font-family: "SF_LIGHT";
-    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Light.otf);
+    font-family: "MEDIUM";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/Poppins-Medium.ttf);
 }
 
 @font-face {
-    font-family: "SF_SEMIBOLD";
-    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Semibold.otf);
-}
-
-@font-face {
-    font-family: "SF_HEAVY";
-    src: url(/storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Heavy.otf);
+    font-family: "MEDIUMMONSERRAT";
+    src: url(/storage/font/SF-Pro-Text-Font-Family/Montserrat-Medium.ttf);
 }
 
 
