@@ -10,6 +10,8 @@ body{
     
 }
 .header__invento{
+    background-image: url(../storage/img/Grouplineas.svg);
+
     padding: var(--space-layout-padding-lr);
     position: static;
     background-color: var(--color-1);
@@ -35,6 +37,7 @@ body{
     width: 40px;
 }
 .partbalance{
+    background-image: url(../storage/img/Grouplineas.svg);
     background-color: var(--color-1);
     /* background-image: url(../storage/img/Group\ 8circulos.svg); */
     height: 150px;
