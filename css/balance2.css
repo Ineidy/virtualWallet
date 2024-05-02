@@ -126,7 +126,7 @@ body{
 
 }
 .days{
-
+    margin-top: 7vh;
     width: 50vh;
     margin-bottom: 4vw;
 }
@@ -135,6 +135,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 230px;
 }
 .compl{
     margin-bottom: 60px;

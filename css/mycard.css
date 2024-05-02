@@ -61,7 +61,7 @@ body {
 }
 
 .info h3 {
-    margin-top: 25px;
+    margin-top: 35px;
     font-size: 25px;
     font-family: "MEDIUM";
 }
@@ -137,7 +137,7 @@ body {
     background-image: url(../storage/img/Groupdecoracion.svg);
     width: 200px;
     height: 300px;
-    border-radius: 30px;
+    border-radius: 20px;
     border: 2px solid;
 
 }

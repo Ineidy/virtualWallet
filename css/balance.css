@@ -16,8 +16,10 @@ body{
     color: var(--color-7);
     display: flex;
     column-gap: 10px;
+    background-image: url(../storage/img/Grouplineas.svg);
     /* justify-content: space-between; */ 
 }
+
 .header__invento img{
     width: 40px;
 }
@@ -35,6 +37,7 @@ body{
     width: 40px;
 }
 .partbalance{
+    background-image: url(../storage/img/Grouplineas.svg);
     background-color: var(--color-1);
     /* background-image: url(../storage/img/Group\ 8circulos.svg); */
     height: 150px;
@@ -135,6 +138,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 230px;
 }
 .compl{
     margin-bottom: 60px;
@@ -172,14 +176,14 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     background-color: var(--color-3);
-    padding-bottom: 30px;
+    padding-bottom: px;
 }
 .cel img{
     width: 130px;
-    margin-top: 60px;
+    margin-top: 6px;
 }
 .Spending{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .spam{
     position: fixed;
