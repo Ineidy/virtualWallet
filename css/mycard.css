@@ -1,0 +1,228 @@
+@import url(variables.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-4);
+
+}
+
+.header__invento {
+    color: var(--color-7);
+    padding: var(--space-layout-padding-lr);
+    display: flex;
+    column-gap: 10px;
+}
+
+.header__invento img {
+    width: 40px;
+}
+
+.icon1 {
+    position: absolute;
+    padding-right: 15px;
+    right: 0;
+}
+
+.header__invento p {
+        font-family: "JERSEY";
+        font-size: 25px;
+        margin-top: 10px;
+    
+}
+
+.investing {
+    font-size: 20px;
+    font-family: "BOLD";
+}
+
+.investing__tips {
+    margin-top: 30px;
+    padding: var(--space-layout-padding-lr);
+}
+
+.EFT {
+    /* background-color: aquamarine; */
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    width: 360px;
+    margin-top: 30px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    padding: var(--space-layout-padding-lr);
+
+}
+
+.info h3 {
+    margin-top: 35px;
+    font-size: 25px;
+    font-family: "MEDIUM";
+}
+
+.info small {
+    margin-top: 25px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: "REGULAR";
+}
+
+.info button {
+    margin-top: 10px;
+    font-size: 10px;
+    color: var(--color-5);
+    background-color: var(--color-6);
+    border-color: var(--color-6);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 14px;
+    font-family: "MEDIUM";
+
+}
+
+.etfimg {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 320px;
+    width: 30px;
+}
+
+.imgcer {
+    background-color: var(--color-6);
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.cerdii {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 14px;
+    margin-left: 10px;
+    width: 120px;
+
+}
+
+.carrt {
+    padding: var(--space-layout-padding-lr);
+}
+
+.txtmycard {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "BOLD";
+}
+
+.scroll {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    overflow-x: scroll;
+    column-gap: 25px;
+    padding-bottom: 70px;
+}
+
+.tarjeta {
+    background-color: var(--color-2);
+    background-image: url(../storage/img/Groupdecoracion.svg);
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid;
+
+}
+
+.cantidad{
+    font-family: "MEDIUMMONSERRAT";
+    position: relative;
+    color: var(--color-5);
+    margin-left: 32px;
+    margin-top: 50px;
+    font-size: 30px;
+
+}
+.num{
+    font-family: "MEDIUMMONSERRAT";
+
+    position: relative;
+    padding-left: 110px;
+    padding-top: 20px;
+    color: var(--color-5);
+}
+.icon3{
+    position: relative;
+    width: 70px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+.icon3vis{
+    position: relative;
+    width: 60px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.icon2{
+    position: relative;
+    margin-left: 20px;
+    /* margin-bottom: 300px; */
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: var(--color-1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer ul {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+footer ul li {
+    justify-content: center;
+    list-style: none;
+
+}
+
+footer li a img {
+    width: 30px;
+    height: 30px;
+}
